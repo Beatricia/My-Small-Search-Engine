@@ -52,6 +52,9 @@ public class MySmallSearchEngine {
             case 'm':
                 MainForGraphics1 miniGame = new MainForGraphics1();
                 break; 
+            case 'd':
+                new Dice().setVisible(true);
+                break;
             default:
                 System.out.println("You entered invalid inquiry");
                 }
