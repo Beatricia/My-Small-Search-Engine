@@ -24,7 +24,7 @@ public class MySmallSearchEngine {
      */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("What do you need to search for ?");
+        System.out.println("Welcome to Googol!");
         String s = in.nextLine();
         String keyword="";
         char key = s.charAt(0);
